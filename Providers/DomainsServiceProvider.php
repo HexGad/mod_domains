@@ -50,7 +50,7 @@ class DomainsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             module_path($this->moduleName, 'dist/build-domains') => public_path(),
-        ], 'assets');
+        ], 'modules-assets');
     }
 
 
