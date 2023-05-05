@@ -49,7 +49,7 @@ class DomainsServiceProvider extends ServiceProvider
     protected function registerAssets()
     {
         $this->publishes([
-            module_path($this->moduleName, 'dist/build-domains') => public_path(),
+            module_path($this->moduleName, 'dist/build-domains') => public_path('build-domains'),
         ], 'modules-assets');
     }
 
