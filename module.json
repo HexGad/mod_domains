@@ -3,7 +3,7 @@
     "alias": "domains",
     "description": "",
     "keywords": [],
-    "priority": 6,
+    "priority": 8,
     "providers": [
         "HexGad\\Domains\\Providers\\DomainsServiceProvider"
     ],
